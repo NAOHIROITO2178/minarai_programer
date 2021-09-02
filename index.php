@@ -68,6 +68,7 @@
     <div class = "text">内容</div><br>
     <textarea name = "body"></textarea>
     </div>
+    <input type = "submit" name = "送信>
     </form>
     <?php
      $strone = $_POST["name",w];

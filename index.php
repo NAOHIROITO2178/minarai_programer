@@ -56,6 +56,7 @@
       <br>
     </footer>
     ----------------------------------------------------------------------------------------------------------<br>
+    <form action = "" method = post>
     <div class = "form" >
     <div class = "title">お問い合わせ</div>
     <div class = "name">名前<br>
@@ -66,8 +67,15 @@
     </div>
     <div class = "text">内容</div><br>
     <textarea name = "body"></textarea>
-    </div>  
-    <br>
-    <br>
+    </div>
+    </form>
+    <?php
+     $strone = $_POST["name",w];
+     $strtwo = $_POST["email",w];
+     $strthree = $_POST["body",w];
+     echo $strone."を受け取りました。";
+     echo $strtwo."を受け取りました。";
+    　echo $strthree."を受け取りました。";
+     ?>
   </body>
 </html>
